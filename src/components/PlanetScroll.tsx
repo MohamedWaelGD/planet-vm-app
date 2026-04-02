@@ -5,7 +5,7 @@ import { motion, useScroll, useTransform, useMotionValueEvent } from "framer-mot
 
 const FRAME_COUNT = 192;
 const FRAME_PATH = (i: number) =>
-  `/frames/${String(i + 1).padStart(5, "0")}.png`;
+  `/ezgif-split/frame_${String(i).padStart(3, "0")}_delay-0.041s.webp`;
 
 interface StoryBeat {
   at: number;
